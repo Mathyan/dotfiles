@@ -60,6 +60,7 @@ tooltip {
 #workspaces,
 #tray,
 #custom-github,
+#custom-githubNot,
 #backlight {
     background: #1e1e2e;
     padding: 0px 10px;
@@ -143,6 +144,10 @@ tooltip {
     border-radius: 0px 10px 10px 0px;
     border-right: 0px;
     margin-left: 0px;
+}
+#custom-githubNot {
+    border-left: 0px;
+    border-right: 0px;
 }
 
 #custom-github {

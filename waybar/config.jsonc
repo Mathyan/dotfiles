@@ -10,7 +10,7 @@
         "format": "{} ",
         "return-type": "json",
         "interval": 60,
-        "exec": "$HOME/.config/waybar/github.sh",
+        "exec": "/home/admin/.config/waybar/scripts/github.py",
         "on-click": "xdg-open https://github.com/notifications"
     },
     "layer": "top",
