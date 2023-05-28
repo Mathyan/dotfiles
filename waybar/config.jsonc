@@ -2,9 +2,16 @@
     "custom/github": {
         "tooltip" : true,
         "format" : "{}",
-        "interval" : 1800,
+        "interval" : 60,
         "exec" : "~/.config/waybar/scripts/github-monitor.py",
         "return-type" : "json"
+    },
+    "custom/githubNot": {
+        "format": "{} ",
+        "return-type": "json",
+        "interval": 60,
+        "exec": "$HOME/.config/waybar/github.sh",
+        "on-click": "xdg-open https://github.com/notifications"
     },
     "layer": "top",
     "position": "top",
@@ -15,6 +22,7 @@
     "height": 0,
     "modules-left": [
         "custom/github",
+        "custom/githubNot",
         "clock",
         "custom/weather",
         "wlr/workspaces"
