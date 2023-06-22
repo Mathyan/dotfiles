@@ -5,11 +5,20 @@ x-scheme-handler/https=firefox.desktop
 x-scheme-handler/about=firefox.desktop
 x-scheme-handler/unknown=firefox.desktop
 inode/directory=thunar.desktop
+video/mp4=mpv.desktop
+text/plain=nvim.desktop
 
 [Added Associations]
-text/plain=org.xfce.mousepad.desktop;
+text/plain=userapp-kitty nvim %f-BZ2A61.desktop;code.desktop;org.xfce.mousepad.desktop;
 application/x-shellscript=org.xfce.mousepad.desktop;kitty-open.desktop;
 application/xml=org.xfce.mousepad.desktop;
 application/json=vscodium.desktop;
 text/javascript=vscodium.desktop;
 text/vnd.trolltech.linguist=vscodium.desktop;
+video/x-matroska=mpv.desktop;
+video/mp4=mpv.desktop;
+image/jpeg=viewnior.desktop;
+text/markdown=code.desktop;
+text/x-lua=org.xfce.mousepad.desktop;code.desktop;
+application/x-desktop=org.xfce.mousepad.desktop;nvim.desktop;code.desktop;
+text/x-csrc=org.xfce.mousepad.desktop;userapp-kitty nvim %f-BZ2A61.desktop;nvim.desktop;
